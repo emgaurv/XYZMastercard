@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.xyzmastercrd.www.cardata">
+    <ImageView android:layout_width="wrap_content"
+               android:layout_marginTop="1dp"
+               android:layout_height="160dp"
+               android:src="@drawable/cardoriginal"
+               android:id="@+id/imageView2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout2">
+   <TextView
+       android:layout_weight="1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="CARD HOLDER NAME"
+   android:layout_marginTop="5dp"
+       android:textSize="10sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaurav Pandey"
+        android:id="@+id/holdername"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginLeft="10dp"
+        android:textColor="#2d85ff"
+        android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000 0000 0000 0000"
+
+        android:fontFamily="sans-serif-light"
+        android:textColor="#ffffff"
+        android:id="@+id/cardnumber"
+        android:layout_marginBottom="15dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/username"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaurav Pandey"
+        android:id="@+id/username"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:layout_marginBottom="18dp"
+
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignLeft="@+id/cardnumber"
+        android:layout_alignStart="@+id/cardnumber" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="CARD NO"
+            android:layout_marginTop="7dp"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+           android:id="@+id/cardnodata"
+            android:text="4545454545454545"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2d85ff"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCOUNT NO"
+            android:layout_weight="1"
+            android:layout_marginTop="7dp"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="101010101010"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2d85ff"
+            android:fontFamily="sans-serif-light"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CARD EXPIRY"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09/2019"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2d85ff"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:id="@+id/linearLayout6"
+        android:layout_below="@+id/linearLayout7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ISSUE BY"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="XYZ eCommerce"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2d85ff"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/linearLayout7"
+        android:layout_below="@+id/linearLayout8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADDRESS"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/address"
+            android:text="C14/165 Varanasi"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#2d85ff"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout8">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATE OF BIRTH"
+            android:layout_weight="1"
+
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateofb"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginLeft="10dp"
+            android:textColor="#2d85ff"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:src="@drawable/bored"
+               android:id="@+id/bored"
+               android:layout_below="@+id/linearLayout6"
+                 android:layout_alignParentRight="true"
+               android:layout_alignParentEnd="true"
+
+               android:layout_marginTop="20dp"
+             />
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:src="@drawable/lost"
+               android:id="@+id/lost"
+               android:layout_marginTop="10dp"
+               android:layout_below="@+id/bored"
+
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"/>
+
+</RelativeLayout>
